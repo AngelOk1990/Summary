@@ -1,0 +1,201 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+  box-sizing: border-box;
+ }
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  height: 100%;
+  background-color: #F5F5F5;
+  max-width: 1280px;
+}
+
+ul, li{
+ list-style: none;
+ margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  flex-direction: column;
+  max-width: 1100px;
+  height: 31px;
+  margin-left: 80px;
+  margin-right: 100px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.header__link {
+ color:#5562FF;
+ font-weight: 700;
+ font-size: 20px;
+ line-height: 23px;
+}
+
+
+.navigation__list {
+    display: flex;
+    gap: 29px;
+    padding-left: 0;
+}
+
+.navigation__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.line {
+    border-bottom: 1px solid #D6D6D6;
+    justify-self: center;
+    padding-top: 10px;
+}
+
+.section__about{
+    background-color: #FFFFFF;
+    padding: 0 100px 37px 80px;
+}
+
+.about {
+display: flex;
+padding-top: 110px;
+}
+
+.about__me {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-top: 65px;
+    gap: 29px;
+}
+
+.about__title {
+font-weight: 900;
+font-size: 32px;
+line-height: 38px;
+margin: 0;
+}
+.title__profession {
+font-weight: 900;
+font-size: 32px;
+line-height: 38px;
+color: #5562FF;
+}
+.about__text {
+margin: 0;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+.about__button {
+width: 159px;
+height: 40px;
+background-color: #FE481C;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+border: 0;
+}
+
+.about__photo {
+    width: 400px;
+    height: 400px;
+}
+.img {
+    border-radius: 200px;
+    margin: 0 0 0 115px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin: 75px 565px 0 550px;
+}
+
+.skills {
+    background-color: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 66px;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 62px;
+}
+
+.skills__subtitle{
+margin: 0 0 12px 85px;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+}
+.skills__text{
+margin: 0 0 14px 85px;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+}
+
+.last {
+    margin-top: 60px;
+}
+.skills__buttons{
+    margin: 0 0 0 85px;
+    display: flex;
+    gap: 17px;
+    width: 424px;
+    height: 40px;
+}
+
+.btn__skill {
+border: 0;
+background-color: #5562FF;
+text-align: center;
+justify-content: center;
+font-weight: 900;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.first, 
+.fourth {
+    width: 87px;
+}
+
+.second {
+    width: 75px;
+}
+
+.third {
+    width: 124px;
+}
+
+.projects {
+    background-color: #FFFFFF;
+    padding-top: 37px;
+    padding-bottom: 49px;
+}
+
+.projects__list {
+display: flex;
+justify-content: center;
+gap: 55px;
+}
