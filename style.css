@@ -58,6 +58,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  color: #000000;
 }
 
 .line {
@@ -105,11 +106,14 @@ a {
   width: 159px;
   height: 40px;
   background-color: #FE481C;
+  border: 0;
+}
+
+.btn__link {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
-  border: 0;
 }
 
 .about__photo {
@@ -126,6 +130,13 @@ a {
   justify-content: center;
   gap: 23px;
   margin: 75px 565px 0 550px;
+}
+
+.icons__telegram,
+.icons__mail,
+.icons__phone {
+  width: 40px;
+  height: 40px;
 }
 
 .skills {
